@@ -1,0 +1,131 @@
+.ms_container {
+  width: 100vw;
+  position: relative;
+
+  .bg_container {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    .left {
+      width: 50%;
+      height: 750px;
+      background: #e8f3b5;
+      position: relative;
+
+      .image {
+        position: absolute;
+        right: 0;
+        bottom: -5px;
+      }
+    }
+    .right {
+      width: 50%;
+      height: 750px;
+      background: #f8f8f8;
+    }
+  }
+
+  .ms_content_container {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+    .ms_content {
+      width: 1240px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+
+      .left {
+        width: 50%;
+        height: 100%;
+        position: relative;
+
+        .container {
+          width: 520px;
+          position: absolute;
+          top: 273px;
+          .title {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 100%;
+            letter-spacing: -0.03em;
+            color: #1c1c1c;
+          }
+          .desc {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #5c5c5c;
+            margin-top: 12px;
+          }
+          .button {
+            margin-top: 40px;
+            cursor: pointer;
+          }
+        }
+      }
+      .right {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        position:relative;
+
+
+        .container {
+            width: 503px;
+            display: flex;
+            flex-direction: column;
+            row-gap: 62.5px;
+          position: absolute;
+          .item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: nowrap;
+            column-gap: 30.63px;
+            .text_content {
+                display: flex;
+                flex-direction: column;
+                row-gap: 12px;
+              .head {
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 120%;
+                letter-spacing: -0.03em;
+                color: #1c1c1c;
+              }
+              .text {
+                font-family: "DM Sans";
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 150%;
+                color: #1a1a1a;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

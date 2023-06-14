@@ -1,0 +1,73 @@
+.ts_main {
+    width: 1240px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+  .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    .content {
+      max-width: 503px;
+      display: flex;
+      flex-direction: column;
+      grid-gap: 40px;
+      padding: 73.5px 0;
+      .label {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        display: flex;
+        align-items: center;
+        color: #8bcdda;
+      }
+      .title {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        color: #ffffff;
+      }
+      .desc {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #919191;
+      }
+    }
+  }
+  .right {
+    width: 50%;
+    position:relative;
+
+    
+
+    .content{
+        max-width: 588px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+
+        .two_images{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .over_head_img{
+            position:absolute;
+        }
+    }
+  }
+}

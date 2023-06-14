@@ -1,0 +1,167 @@
+.nav__main {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+  max-width: 1240px;
+  position: absolute;
+  top: 0;
+  margin-top: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    width: 111px;
+  }
+  .nav__ser_pri {
+    width: 190px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 25px;
+
+    .services {
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      column-gap: 10px;
+
+      .text {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: white;
+      }
+      .icon {
+        width: 9.31px;
+      }
+    }
+    .pricing {
+        cursor: pointer;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        color: white;
+        padding: 0 20px;
+    }
+  }
+
+  .nav__log_sign {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+
+    .log {
+      cursor: pointer;
+    }
+  }
+}
+
+.hero__content {
+  width: 100%;
+  max-width: 1240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: 69px;
+
+  & > div {
+    width: 50%;
+  }
+  .left {
+    max-width: 608px;
+    span {
+      background: #05ba46;
+      padding: 0 14px;
+    }
+    .aim {
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 60px;
+      color: white;
+      letter-spacing: -0.03em;
+    }
+    .des {
+      margin-top: 18px;
+      width: 503px;
+      font-family: "DM Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      color: #E7E7E7;
+    }
+    .input_div {
+      margin-top: 40px;
+      display: flex;
+      gap: 8px;
+      .submit {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: #03a3bd;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 14px;
+        color: white;
+        width: 97px;
+        height: 50px;
+        cursor: pointer;
+        opacity: 0.8;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+      input {
+        width: 286px;
+        // height: 40px;
+        border-radius: 4px;
+        border: none;
+        padding: 15px;
+
+        &::placeholder {
+          font-family: "DM Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          color: rgb(191, 191, 191);
+        }
+        &:focus {
+          border: none !important;
+          outline: none !important;
+        }
+        &:active {
+          border: none !important;
+          outline: none !important;
+        }
+      }
+    }
+  }
+  .right {
+    position: relative;
+    z-index: 1;
+
+    .person {
+      position: absolute;
+      z-index: 3;
+    }
+    .Phone {
+      position: relative;
+      z-index: 2;
+      right: 0;
+      img {
+        position: relative;
+        right: -289px;
+      }
+    }
+  }
+}

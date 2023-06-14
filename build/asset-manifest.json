@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36862655.css",
+    "main.js": "/static/js/main.ee40638c.js",
+    "static/media/person1.svg": "/static/media/person1.e65069d5debccb8e318f62a9b9390988.svg",
+    "static/media/heroPerson.svg": "/static/media/heroPerson.28eae0c735b0f90808c059680c843c3c.svg",
+    "static/media/lady.svg": "/static/media/lady.59e51931d641074c198efe48a8c86ecc.svg",
+    "static/media/person3.svg": "/static/media/person3.55a2834d860a9b7ef0c785fd64e6129d.svg",
+    "static/media/3.svg": "/static/media/3.e0637d7b6562e73320f97e279afcbe64.svg",
+    "static/media/1.svg": "/static/media/1.bb069b2f48d04dc68600ab1a92555c28.svg",
+    "static/media/logo.svg": "/static/media/logo.eab49dbb4e230e1fffc8ee43633ae36d.svg",
+    "static/media/heroiPhone.svg": "/static/media/heroiPhone.cd316834034122c9dcda0667c21d1c7b.svg",
+    "static/media/person2.svg": "/static/media/person2.ae18410645f8df25c91378c7011a92db.svg",
+    "static/media/Screen1.svg": "/static/media/Screen1.1c00643f643110ef7ddab1121b2f94c8.svg",
+    "static/media/Screen2.svg": "/static/media/Screen2.4010a87f3c0d86f5b8001be770490266.svg",
+    "static/media/2.svg": "/static/media/2.01dd5abe5bd161e6a733c3a66070561c.svg",
+    "static/media/Screen3.svg": "/static/media/Screen3.5ffa772cc686dc4bf3ff6f5b5687ff72.svg",
+    "static/media/brand-logos.svg": "/static/media/brand-logos.0b6de9b4f2a41d83540ac445d0090873.svg",
+    "static/media/user_5.png": "/static/media/user_5.133033391b1b46552103.png",
+    "static/media/user_2.png": "/static/media/user_2.2ab7a0b0ed04f05baeef.png",
+    "static/media/user_1.png": "/static/media/user_1.9edef4a6203ae42a3a94.png",
+    "static/media/user_4.png": "/static/media/user_4.c49efde68dbd119b0276.png",
+    "static/media/rupee2.svg": "/static/media/rupee2.646193688924fb2767f18b6ac66cfc05.svg",
+    "static/media/check_filled.svg": "/static/media/check_filled.4436667d717d2d655052c1481b542d06.svg",
+    "static/media/lines.svg": "/static/media/lines.1f1c962834b71f3deed9f7a2c4183ebe.svg",
+    "static/media/people_alt.svg": "/static/media/people_alt.6bf80a08d75f29d599c41a764cd346bb.svg",
+    "static/media/tips_and_updates.svg": "/static/media/tips_and_updates.9fcdafe256d72c4ee21df03c6236613b.svg",
+    "index.html": "/index.html",
+    "static/media/bolt.svg": "/static/media/bolt.00b401a7dc6bf8739592f415bac7b374.svg",
+    "static/media/Vector.svg": "/static/media/Vector.0f33e4b1aa22f3777a3a3ab7624e2039.svg",
+    "main.36862655.css.map": "/static/css/main.36862655.css.map",
+    "main.ee40638c.js.map": "/static/js/main.ee40638c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36862655.css",
+    "static/js/main.ee40638c.js"
+  ]
+}

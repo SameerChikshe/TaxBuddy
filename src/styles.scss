@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Sans";
+}
+
+.brand_logo {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #212121;
+  position: relative;
+
+  img {
+    width: 1240px;
+  }
+  .matrix_left {
+    width: 200px;
+    height: 200px;
+    left: 0px;
+    background: linear-gradient(
+      180deg,
+      #212121 47.53%,
+      rgba(33, 33, 33, 0) 100%
+    );
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    position: absolute;
+  }
+  .matrix_right {
+    width: 200px;
+    height: 200px;
+    right: 0px;
+    background: linear-gradient(
+      360deg,
+      #212121 57.69%,
+      rgba(33, 33, 33, 0) 100%
+    );
+    transform: matrix(0, 1, 1, 0, 0, 0);
+    position: absolute;
+  }
+}
+
+.stats_save_container {
+  position: relative;
+
+  .images_main_container{
+    width: 1240px;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .images_container {
+      position: absolute;
+      top: 330px;
+      display: flex;
+      align-items: flex-start;
+      width: 644px;
+      flex-direction: row;
+      justify-content: space-between;
+      .image1 {
+        position: relative;
+      }
+      .image2 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top:101.09px;
+      }
+      .image3 {
+        position: relative;
+      }
+    }
+  }
+
+  
+}
